@@ -1,0 +1,70 @@
+body {background-color: white;}
+
+p {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#GrønnBakgrunn {
+    margin: auto;
+    background-color: #006A4E;
+    width: 250px;
+    height: 150px;
+    position: relative;
+    box-shadow: 10px 10px 20px black;
+    }
+
+#RødSirkel {
+    margin: auto;
+    background-color: #F42A41;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#chileFlagg {
+    margin: auto;
+    height: 200px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#blåFirkant {
+    margin: left;
+    background-color: #0039a6;
+    height: 100px;
+    width: 100px;
+
+    position: relative;
+}
+
+#stjerne {
+    margin: auto;
+    font-size: 50px;
+    color: #FFFFFF;
+    top: 15px;
+    position: relative;
+}
+
+#hvitRektangel {
+    margin: auto;
+    background-color: #FFFFFF;
+    height: 100px;
+    width: 300px;
+}
+
+#rødRektangel {
+    margin: auto;
+    background-color: #d52b1e;
+    height: 100px;
+    width: 300px;
+}

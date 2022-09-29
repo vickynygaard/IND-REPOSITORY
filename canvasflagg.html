@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>(3) Canvas flagg Island</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        canvas {
+            border-style: solid;
+            border-width: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Island</h1>
+    <canvas id="islandFlagg" width="500px" height="360px"></canvas>
+
+
+    <script>
+
+        var getId1 = document.getElementById('islandFlagg');
+        var getIdContext1  = getId1.getContext('2d');
+
+        getIdContext1.fillStyle = '#02529C';
+        getIdContext1.fillRect(0,0,500,360);
+        getIdContext1.fillStyle = '#FFFFFF';
+        getIdContext1.fillRect(0,140,500,80);
+        getIdContext1.fillStyle = '#FFFFFF';
+        getIdContext1.fillRect(140,0,80,360);
+        getIdContext1.fillStyle = '#DC1E35';
+        getIdContext1.fillRect(0,160,500,40);
+        getIdContext1.fillStyle = '#DC1E35';
+        getIdContext1.fillRect(160,0,40,360);
+    
+
+
+
+</script>
+
+</body>
+
+
+
+
+</html>
